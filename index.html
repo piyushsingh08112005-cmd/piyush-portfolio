@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Piyush Singh | Snippets & Projects</title>
+  <meta name="description" content="Portfolio with code snippets and projects in C, C++, and Python." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <a class="brand" href="#home">PS<span>.</span></a>
+      <div class="nav-links">
+        <a href="#snippets">Snippets</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="admin.html">Admin</a>
+      </div>
+    </nav>
+    <section id="home" class="hero-content">
+      <p class="eyebrow">Developer Portfolio</p>
+      <h1>Snippets, Projects & GitHub Pages Ready Deploy</h1>
+      <p class="subtext">Clean C, C++, and Python notebook structure with snippets moved out of the old codes folder.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#snippets">Explore Snippets</a>
+        <a class="btn secondary" href="#projects">View Projects</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="snippets" class="section">
+      <div class="section-head">
+        <h2>Snippets</h2>
+        <p>Compact examples for fast reference and practice.</p>
+      </div>
+      <div class="filters">
+        <input id="snippetSearch" type="search" placeholder="Search snippets..." />
+        <select id="snippetLang">
+          <option value="all">All languages</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="Python">Python</option>
+        </select>
+      </div>
+      <div id="snippetsGrid" class="grid"></div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p>Professional notebook projects. Empty links show a future-work message.</p>
+      </div>
+      <div class="filters">
+        <input id="projectSearch" type="search" placeholder="Search projects..." />
+        <select id="projectLang">
+          <option value="all">All languages</option>
+          <option value="C">C</option>
+          <option value="C++">C++</option>
+          <option value="Python">Python</option>
+        </select>
+      </div>
+      <div id="projectsGrid" class="grid"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>GitHub Pages friendly portfolio update.</p>
+      </div>
+      <div class="contact-card">
+        <p>Email: <a href="mailto:piyushsingh08112005@gmail.com">piyushsingh08112005@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/piyushsingh08112005-cmd" target="_blank" rel="noreferrer">piyushsingh08112005-cmd</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Piyush Singh</span>
+  </footer>
+
+  <dialog id="detailDialog" class="dialog">
+    <div class="dialog-inner">
+      <button class="close" id="closeDialog" aria-label="Close">×</button>
+      <h3 id="dialogTitle"></h3>
+      <p id="dialogDesc"></p>
+      <pre id="dialogCode" class="dialog-code"></pre>
+      <p id="dialogStatus"></p>
+      <a id="dialogLink" class="btn primary" href="#" target="_blank" rel="noreferrer">Open Notebook</a>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>

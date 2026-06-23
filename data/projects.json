@@ -1,1 +1,394 @@
-
+{
+  "projects": [
+    {
+      "title": "Banking System",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Bank account management with deposits, withdrawals, transfers, and file-based persistence.",
+      "notebook": "projects/c/banking_system.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Library Management System",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Book catalog, issue/return tracking, and persistent records using binary files.",
+      "notebook": "projects/c/library_management_system.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Student Record System",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Student profiles, marks analysis, grade reports, and search/update operations.",
+      "notebook": "projects/c/student_record_system.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Inventory Manager",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Stock tracking, low-stock alerts, pricing, and product record maintenance.",
+      "notebook": "projects/c/inventory_manager.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Calculator",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Menu-driven scientific calculator with reusable functions and history logging.",
+      "notebook": "projects/c/calculator.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Hospital Management",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Patient registration, appointment scheduling, and simple queue management.",
+      "notebook": "projects/c/hospital_management.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Railway Reservation",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Ticket booking, cancellation, availability tracking, and passenger records.",
+      "notebook": "projects/c/railway_reservation.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Contact Book",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Add, search, update, and remove contacts with persistent storage.",
+      "notebook": "projects/c/contact_book.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "File Compressor",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Run-length encoding compressor/decompressor for text files.",
+      "notebook": "projects/c/file_compressor.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Employee Payroll",
+      "lang": "C",
+      "category": "project",
+      "status": "done",
+      "description": "Employee records, salary calculation, deductions, and payslip generation.",
+      "notebook": "projects/c/employee_payroll.ipynb",
+      "tags": [
+        "File Handling",
+        "Menu",
+        "CRUD"
+      ]
+    },
+    {
+      "title": "Hotel Management System",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Room booking, check-in/check-out, invoices, and room status tracking.",
+      "notebook": "projects/cpp/hotel_management_system.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Car Rental System",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Vehicle catalog, reservations, billing, and availability management.",
+      "notebook": "projects/cpp/car_rental_system.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Online Quiz System",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Question bank, scoring engine, and quiz result summary.",
+      "notebook": "projects/cpp/online_quiz_system.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "E-Commerce Backend",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Products, cart, checkout, and inventory-aware order processing.",
+      "notebook": "projects/cpp/e_commerce_backend.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "ATM Simulator",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "PIN-based account access, deposit, withdrawal, and balance statements.",
+      "notebook": "projects/cpp/atm_simulator.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Library Management",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "OOP book/member handling with issue logs and status updates.",
+      "notebook": "projects/cpp/library_management.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Inventory System",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Class-based inventory tracking with reporting and restocking support.",
+      "notebook": "projects/cpp/inventory_system.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Snake Game",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Terminal snake game with board rendering, scoring, and collision logic.",
+      "notebook": "projects/cpp/snake_game.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Parking Management",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Slot allocation, vehicle entry/exit, and receipt generation.",
+      "notebook": "projects/cpp/parking_management.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Student Portal",
+      "lang": "C++",
+      "category": "project",
+      "status": "done",
+      "description": "Student profiles, attendance, marks, and GPA-style reporting.",
+      "notebook": "projects/cpp/student_portal.ipynb",
+      "tags": [
+        "OOP",
+        "STL",
+        "Menu"
+      ]
+    },
+    {
+      "title": "Student Management System",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "AI-enhanced student analytics, grade prediction, and risk detection.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "Weather Tracker",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Weather forecasting and data visualization notebook.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "Movie Recommendation System",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Content-based recommendations using TF-IDF and cosine similarity.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "QR Code Generator",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Smart QR generation, scanning, and text extraction notebook.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "Expense Tracker",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Personal finance tracking with forecasting and category prediction.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "Sentiment Analysis",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "NLP sentiment classifier notebook.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "Spam Email Classifier",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Text classification notebook for spam detection.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "House Price Prediction",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Regression-based house price prediction notebook.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "News Web Scraper",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "News scraping and summarization notebook.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    },
+    {
+      "title": "To-Do App",
+      "lang": "Python",
+      "category": "project",
+      "status": "coming_soon",
+      "description": "Productivity notebook placeholder for future implementation.",
+      "notebook": "",
+      "tags": [
+        "AI/ML",
+        "Notebook",
+        "Coming Soon"
+      ]
+    }
+  ]
+}

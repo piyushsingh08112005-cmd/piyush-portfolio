@@ -1,0 +1,35 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "03515b0b",
+   "metadata": {},
+   "source": [
+    "# Hello World\n",
+    "\n",
+    "**Language:** C++\n",
+    "\n",
+    "**Level:** basic"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a9615b70",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#include <iostream>\n",
+    "using namespace std;\n",
+    "\n",
+    "int main() {\n",
+    "    cout << \"Hello, World!\" << endl;\n",
+    "    return 0;\n",
+    "}"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

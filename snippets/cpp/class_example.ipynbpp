@@ -1,0 +1,46 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "3e7d5465",
+   "metadata": {},
+   "source": [
+    "# Class Example\n",
+    "\n",
+    "**Language:** C++\n",
+    "\n",
+    "**Level:** advanced"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "d5b44198",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#include <iostream>\n",
+    "#include <string>\n",
+    "using namespace std;\n",
+    "\n",
+    "class Student {\n",
+    "public:\n",
+    "    string name;\n",
+    "    int roll;\n",
+    "    void display() const {\n",
+    "        cout << \"Name: \" << name << \", Roll: \" << roll << endl;\n",
+    "    }\n",
+    "};\n",
+    "\n",
+    "int main() {\n",
+    "    Student s{\"John\", 101};\n",
+    "    s.display();\n",
+    "    return 0;\n",
+    "}"
+   ]
+  }
+ ],
+ "metadata": {},
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
